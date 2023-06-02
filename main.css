@@ -1,0 +1,102 @@
+.nickname {
+  font-family: monospace;
+  font-size: 28px
+}
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.125), transparent), linear-gradient(to left top, rgba(0, 255, 0, 0.125), transparent), linear-gradient(to right top, rgba(0, 0, 255, 0.125), transparent);
+}
+
+.block {
+  min-height: 15px;
+  padding: 10px 32px;
+  position: relative;
+  font-size: 20px;
+  top: 0;
+  transition: 0.5s;
+}
+.block:hover {
+  top: -10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  background-color: white;
+  width: 600px;
+  height: 700px;
+  border-radius: 25px;
+  padding: 24px 0;
+}
+.inside_block {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  margin-bottom: 50px
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.btns {
+  font-family: Comfortaa, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.link {
+  color: white;
+  border-radius: 28px;
+  border: none;
+  opacity: 0.8;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 56px;
+  padding: 2px 16px;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+#vk {
+  background-color: rgb(39, 135, 245);
+}
+
+#tg {
+  background-color: rgb(31, 155, 218);
+}
+
+#tt {
+  background-color: rgb(0, 0, 0);
+}
+
+#discord {
+  background-color: rgb(43, 39, 64);
+}
+
+.helpBy {
+  margin-top: 30px;
+  font-family: Comfortaa;
+  font-size: 13px;
+}
+
+#♥ {
+  text-decoration: none;
+  color: #bbb;
+}
